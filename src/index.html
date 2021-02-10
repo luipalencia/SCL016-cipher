@@ -2,12 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <img src="imagenes/educamor.png" alt="" style="height: 60px;">
+      <h4>Mensaje:</h4>
+      <input type="text" id="textoMensaje"><br>
+      <h4>Clave:</h4>
+      <input type="text" placeholder="Ej: 1,2,3" id="clave"><br>
+      <input type="button" id ="buttonEncode" value="cifrar" onclick="mover()">
+      <input type="button" id ="buttonDecode" value="descifrar" onclick="mover()"><br>
+      <h4>RESULTADO:</h4>
+      <input type="text" id="mensaje"><br><br>
+      <img src="imagenes/footer.png" alt="" style="height: 80px;">
+    </div>
+    <div>
     </div>
     <script src="index.js" type="module"></script>
   </body>

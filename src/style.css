@@ -1,0 +1,27 @@
+body {
+    background-image: url(imagenes/fondo.jpg);
+    background-size: contain;
+    font-family: 'Schoolbell', cursive;
+}
+#buttonEncode {
+    font-family: 'Schoolbell', cursive;
+    background-color: #f43f3f;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+#buttonDecode {
+    font-family: 'Schoolbell', cursive;
+    background-color: #1EFA41;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+::placeholder {
+    font-family: 'Schoolbell', cursive; 
+}
+input {
+    border: 2px solid #000;
+}
