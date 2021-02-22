@@ -13,13 +13,15 @@
 <body>
   <div id="root">
     <img src="imagenes/educamor.png" alt="logo de la página" style="height: 60px;">
-    <h4>Mensaje:</h4>
+    <h4 class="title">Mensaje:</h4>
     <input type="text" id="main_message"><br>
-    <h4>Clave:</h4>
-    <input type="number" placeholder="Ej: 1,2,3" id="displace"><br>
-    <input type="button" id="buttonToEncode" value="cifrar">
-    <input type="button" id="buttonToDecode" value="descifrar"><br>
-    <h4>RESULTADO:</h4>
+    <div class="divClave">
+      <h4 id="clave">Clave:</h4>
+      <input type="number" placeholder="Ej: 1,2,3" min="1" max="33" id="displace"><br>
+    </div>
+    <input type="button" id="buttonToEncode" value="Cifrar">
+    <input type="button" id="buttonToDecode" value="Descifrar"><br>
+    <h4 class="title">RESULTADO:</h4>
     <input type="text" id="final_message"><br><br>
     <img src="imagenes/footer.png" alt="descripción de la página" style="height: 85px;">
   </div>

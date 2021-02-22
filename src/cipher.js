@@ -13,11 +13,11 @@ const cipher = {
       else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
         message = (((string.charCodeAt(i) - 97) + offset) % 26) + 97;
       }
-      else if (string.charCodeAt(i)===32) {
-        message = 32;
-      }
       else if (string.charCodeAt(i) >= 33 && string.charCodeAt(i) <= 66) {
         message = (((string.charCodeAt(i) + 33) - offset) % 33) + 33;
+      }
+      else if (string.charCodeAt(i)===32) {
+        message = 32;
       }
       final_code += String.fromCharCode(message);
     }
@@ -36,11 +36,11 @@ const cipher = {
       else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
         message = (((string.charCodeAt(i) + 97) - (offset * -1)) % 26) + 97;
       }
-      else if (string.charCodeAt(i)===32) {
-        message = 32;
-      }
       else if (string.charCodeAt(i) >= 33 && string.charCodeAt(i) <= 66) {
         message = (((string.charCodeAt(i) + 33) - offset) % 33) + 33;
+      }
+      else if (string.charCodeAt(i)===32) {
+        message = 32;
       }
       final_code += String.fromCharCode(message);
     }
