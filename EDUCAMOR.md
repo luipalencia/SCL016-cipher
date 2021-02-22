@@ -20,19 +20,17 @@ Básicamente, para su uso se debe colocar el nombre o el mensaje en la caja de _
 
 Primeramente, no tenía idea de cómo definirlo así que lo pensé como una aplicación de espías y realicé este prototipo en papel básico, sabía que quería se viera así pero no estaba clara en qué específicamente:
 
-<img src="../src/imagenes/prototipo.jpg" alt="prototipo en papel" width="200"/>
+<img src="prototipo.jpeg" alt="prototipo en papel" width="300"/>
 
 
 Luego encontré que no tendría usuarios para testear por lo que decidí encontrarle un buen uso, que pudiera aportar realmente. Un día la idea llegó a mi mente, por lo que hice el prototipo en figma y se veía de esta manera: 
 
 
-<img src="../src/imagenes/prototipo1.jpg" alt="prototipo en papel" width="200"/>
-
+<img src="prototipo1.jpg" alt="prototipo en papel" width="200"/>
 
 Posteriormente, consulte con dos compañeras educadoras y me dieron sus feedback sobre el diseño por lo que tomé sus recomendaciones y el diseño final fue este: 
 
-<img src="../src/imagenes/prototipo1.jpg" alt="prototipo en papel" width="200"/>
-
+<img src="prototipo2.jpg" alt="prototipo en papel" width="200"/>
 
 Y es el que se mantiene actualmente. 
 
