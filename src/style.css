@@ -7,7 +7,7 @@ body {
 #buttonToEncode {
     font-family: 'Schoolbell', cursive;
     background-color: #f43f3f;
-    font-size: medium;
+    font-size: large;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 31px;
@@ -16,7 +16,7 @@ body {
 #buttonToDecode {
     font-family: 'Schoolbell', cursive;
     background-color: #1EFA41;
-    font-size: medium;
+    font-size: large;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 31px;
@@ -33,11 +33,13 @@ input {
     margin: auto;
     text-align: start;
     padding-left: 31px;
+    font-size: 115%;
 }
 #clave {
     padding-left: 31px;
     margin-top: 6px;
     margin-right: 10px;
+    font-size: 115%;
 }
 .divClave {
     display: flex;
